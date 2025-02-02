@@ -47,3 +47,16 @@
         font-size: 12px;
     }
 }
+
+.produto-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    .produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+}
